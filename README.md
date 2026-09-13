@@ -217,7 +217,7 @@ Moving the arrow's direction so that it changes "as little as possible" at every
 
 On a sphere, however, things are different. If you parallel transport the arrow along this closed path and bring it back to the North Pole, the arrow ends up rotated exactly 90 degrees from its original direction.
 
-![holonomy-angle](images/holonomy-angle.png)
+![parallel transport - holonomy](images/parallel transport - holonomy.png)
 
 This value — how much a vector has rotated compared to its original direction after being parallel transported around a closed loop — is called **holonomy**.
 
