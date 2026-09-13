@@ -181,7 +181,7 @@ A sphere's geodesics are generally arcs of a **great circle** — the circle for
 
 ![great-circle.png](images/great-circle.png)  
 
-###### [By Jacob Rus - Own work, plotted with Desmos, https://www.desmos.com/geometry-beta/to4bxwxkdt, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=133795910] ###### 
+######By Jacob Rus - Own work, plotted with Desmos, https://www.desmos.com/geometry-beta/to4bxwxkdt, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=133795910######   
 
 On Earth, the equator is a well-known great circle, and lines of longitude are also arcs of great circles connecting the North and South Poles.
 
