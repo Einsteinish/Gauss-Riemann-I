@@ -1,5 +1,6 @@
 # Gauss–Riemann, Part I: Gaussian Curvature and Three Geometries
 
+![Geometric_surfaces_floating](images/Geometric_surfaces_floating_in_s…_20260913095827.jpeg)
 
 ## 1. What Is Curvature?
 
