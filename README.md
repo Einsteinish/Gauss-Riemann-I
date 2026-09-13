@@ -122,6 +122,8 @@ In particular, consider the following fascinating transformation:
 
 > "Deformation of a right-handed helicoid into a left-handed one and back again via a catenoid"
 
+![Geometric_surfaces_floating](images/Helicatenoid.gif)
+
 In other words, a **right-handed helicoid** continuously deforms — passing through a **catenoid** — into a **left-handed helicoid**, and then returns the other way.
 
 Throughout this process, the surface's outward appearance changes dramatically. But this transformation raises an important question about the geometric properties of the surface.
