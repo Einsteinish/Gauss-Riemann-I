@@ -215,7 +215,9 @@ This time, let's prepare an arrow (a vector) at the North Pole. We'll move this 
 
 Moving the arrow's direction so that it changes "as little as possible" at every moment is called **parallel transport**. On a flat plane, parallel transport simply means sliding the arrow around without rotating it, so after going all the way around a closed loop and returning to the starting point, the arrow points in exactly the same direction as before.
 
-On a sphere, however, things are different. If you parallel transport the arrow along this closed path and bring it back to the North Pole, the arrow ends up rotated exactly 90 degrees from its original direction.[^parallel-transport]
+On a sphere, however, things are different. If you parallel transport the arrow along this closed path and bring it back to the North Pole, the arrow ends up rotated exactly 90 degrees from its original direction.
+
+![holonomy-angle](images/holonomy-angle.png)
 
 This value — how much a vector has rotated compared to its original direction after being parallel transported around a closed loop — is called **holonomy**.
 
