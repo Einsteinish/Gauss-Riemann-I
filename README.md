@@ -1,4 +1,4 @@
-# Gauss-Riemann-I Gaussian Curvature and Three Geometries
+# Gauss–Riemann, Part I: Gaussian Curvature and Three Geometries
 
 
 ## 1. What Is Curvature?
