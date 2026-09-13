@@ -177,9 +177,11 @@ In other words, a sphere is a surface with **positive Gaussian curvature**.
 
 On a sphere, the path that most directly connects two points is a bit different from a straight line on a plane. On a sphere, this kind of path is called a **geodesic**.
 
-A sphere's geodesics are generally arcs of a **great circle** — the circle formed where a plane passing through the sphere's center intersects the sphere.
-![great-circle.png](images/great-circle.png)
-[By Jacob Rus - Own work, plotted with Desmos, https://www.desmos.com/geometry-beta/to4bxwxkdt, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=133795910]
+A sphere's geodesics are generally arcs of a **great circle** — the circle formed where a plane passing through the sphere's center intersects the sphere.  
+
+![great-circle.png](images/great-circle.png)  
+
+[By Jacob Rus - Own work, plotted with Desmos, https://www.desmos.com/geometry-beta/to4bxwxkdt, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=133795910]  
 
 On Earth, the equator is a well-known great circle, and lines of longitude are also arcs of great circles connecting the North and South Poles.
 
