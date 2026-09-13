@@ -181,7 +181,7 @@ A sphere's geodesics are generally arcs of a **great circle** — the circle for
 
 ![great-circle.png](images/great-circle.png)  
 
-######By Jacob Rus - Own work, plotted with Desmos, https://www.desmos.com/geometry-beta/to4bxwxkdt, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=133795910######   
+###### By Jacob Rus - Own work, plotted with Desmos, https://www.desmos.com/geometry-beta/to4bxwxkdt, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=133795910 ######   
 
 On Earth, the equator is a well-known great circle, and lines of longitude are also arcs of great circles connecting the North and South Poles.
 
@@ -235,7 +235,7 @@ This relationship can be seen as a local version of the **Gauss-Bonnet theorem**
 
 In short, a triangle's angular excess, a vector's holonomy, and the integral of Gaussian curvature are all different ways of looking at the same phenomenon. The fact that a surface is curved reveals itself equally through the angles of a triangle, through the rotation of a vector carried around a loop, and through the sum of curvature values.
 
-[^parallel-transport]: To see an illustration of parallel transport on the Earth, see: [Parallel Transport on the Earth](https://link.springer.com/chapter/10.1007/978-3-319-39799-3_5/figures/16).
+
 
 ---
 
