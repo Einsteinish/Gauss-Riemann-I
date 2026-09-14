@@ -341,6 +341,9 @@ In other words, at regular points of a minimal surface, the Gaussian curvature i
 
 The fact that both the helicoid and the catenoid are minimal surfaces nicely illustrates that mean curvature and Gaussian curvature carry different information.
 
+![helicoid](images/helicoid.png)
+
+
 Mean curvature is related to the **sum** of the two principal curvatures,
 
 $$
