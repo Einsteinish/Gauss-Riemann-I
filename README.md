@@ -261,6 +261,8 @@ $$
 K=k_1k_2<0
 $$
 
+![principal-curvatures_on_saddle.jpeg](images/principal-curvatures_on_saddle.jpeg)
+
 In other words, a saddle surface has **negative Gaussian curvature**.
 
 This is an important contrast with the sphere.
