@@ -454,7 +454,7 @@ The curvature at each individual point becomes smaller as the sphere gets larger
 
 Now let's consider a donut-shaped surface: the **torus**.
 
-![torus.png](images/torus.png)  
+![torus-n.png](images/torus-n.png)  
 
 The Euler characteristic of a torus is
 
