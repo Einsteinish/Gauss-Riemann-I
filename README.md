@@ -402,67 +402,120 @@ $$
 
 Applying the Gauss-Bonnet theorem to a sphere, the right-hand side becomes
 
-$$
-2\pi\chi(S)
+2
+π
+χ
+(
+S
+)
 =
-2\pi\times2
+2
+π
+×
+2
 =
-4\pi
-$$
+4
+π
+2πχ(S)=2π×2=4π
+Meanwhile, on a sphere of radius 
+R
+R, the Gaussian curvature at every point is
 
-Meanwhile, on a sphere of radius $R$, the Gaussian curvature at every point is
-
-$$
-K=\frac{1}{R^2}
-$$
-
+K
+=
+1
+R
+2
+K= 
+R 
+2
+ 
+1
+​
+ 
 and the total surface area of the sphere is
 
-$$
-4\pi R^2
-$$
-
+4
+π
+R
+2
+4πR 
+2
+ 
 So summing the Gaussian curvature over the entire sphere gives
 
-$$
-\int_S K\,dA
+∫
+S
+K
+ 
+d
+A
 =
-\frac{1}{R^2}\times4\pi R^2
+1
+R
+2
+×
+4
+π
+R
+2
 =
-4\pi
-$$
-
-Both sides of the Gauss-Bonnet theorem come out to $4\pi$.
+4
+π
+∫ 
+S
+​
+ KdA= 
+R 
+2
+ 
+1
+​
+ ×4πR 
+2
+ =4π
+Both sides of the Gauss-Bonnet theorem come out to 
+4
+π
+4π.
 
 This means that even if the sphere's size — its radius — changes, the integral of the total curvature stays the same.
 
-### What Happens with a Torus?
-
-Now let's consider a donut-shaped surface: the **torus**.
+What Happens with a Torus?
+Now let's consider a donut-shaped surface: the torus.
 
 The Euler characteristic of a torus is
 
-$$
-\chi=0
-$$
-
-So by the Gauss-Bonnet theorem,
-
-$$
-\int_S K\,dA
-=
-2\pi\times0
+χ
 =
 0
-$$
+χ=0
+So by the Gauss-Bonnet theorem,
 
+∫
+S
+K
+ 
+d
+A
+=
+2
+π
+×
+0
+=
+0
+∫ 
+S
+​
+ KdA=2π×0=0
 This doesn't mean the Gaussian curvature is 0 at every point on the torus, though.
 
 On the outer part of a torus, the curvature is generally positive, while on the inner part, it's generally negative.
 
 When you add up these curvatures over the entire surface, they cancel each other out, resulting in a total of 0.
 
-In this way, Gaussian curvature is a **local property** defined at a single point, but when integrated over an entire surface, it connects to that surface's overall **topology**.
+In this way, Gaussian curvature is a local property defined at a single point, but when integrated over an entire surface, it connects to that surface's overall topology.
 
 This is a beautiful result that shows how deeply geometry and topology are connected.
 
