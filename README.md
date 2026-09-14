@@ -517,7 +517,7 @@ In Riemannian geometry, a structure for measuring distance and direction is defi
 
 If Gaussian curvature on a surface represents the intrinsic curvature of a two-dimensional space, Riemannian geometry generalizes this to higher-dimensional **manifolds**.
 
-![Klein_bottle](images/Klein_bottle.jpeg)
+![Klein_bottle](images/Klein_bottle.png)
 
 In this process, curvature may no longer be expressible as a single number.
 
