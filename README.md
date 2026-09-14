@@ -230,7 +230,7 @@ $$
 This is no coincidence. In fact, the holonomy angle along a closed loop is equal to the integral of the Gaussian curvature over the region enclosed by that loop.
 
 $$
-\text{holonomy angle}=\int_{\text{enclosed region}} K\,dA
+\text{holonomy angle}=\int_{\text{enclosed region}} K dA
 $$
 
 This relationship can be seen as a local version of the **Gauss-Bonnet theorem**, which we'll cover in Section 6. There, we'll extend this idea to an entire surface, and see how the integral of curvature connects to the surface's topological properties (its Euler characteristic).
