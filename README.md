@@ -414,14 +414,10 @@ $$
 
 ### Applying Gauss-Bonnet to a Sphere
 
-Applying the Gauss-Bonnet theorem to a sphere, the right-hand side becomes
+Applying the Gauss-Bonnet theorem to a sphere, the right-hand side becomes  
 
 $$
-2\pi\chi(S)
-=
-2\pi\times2
-=
-4\pi
+2\pi\chi(S) = 2\pi\times2 = 4\pi
 $$
 
 Meanwhile, on a sphere of radius $R$, the Gaussian curvature at every point is
@@ -436,14 +432,10 @@ $$
 4\pi R^2
 $$
 
-So summing the Gaussian curvature over the entire sphere gives
+So summing the Gaussian curvature over the entire sphere gives  
 
 $$
-\int_S K dA
-=
-\frac{1}{R^2}\times4\pi R^2
-=
-4\pi
+\int_S K dA = \frac{1}{R^2}\times4\pi R^2 = 4\pi
 $$
 
 Both sides of the Gauss-Bonnet theorem therefore come out to
@@ -471,11 +463,7 @@ $$
 So by the Gauss-Bonnet theorem,
 
 $$
-\int_S K dA
-=
-2\pi\times0
-=
-0
+\int_S K dA = 2\pi\times 0 = 0
 $$
 
 This doesn't mean the Gaussian curvature is $0$ at every point on the torus, though.
