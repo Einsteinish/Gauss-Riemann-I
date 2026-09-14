@@ -368,158 +368,146 @@ The Gaussian curvature we've examined so far is a **local property**, defined at
 
 So what happens if we add up this curvature over an entire surface?
 
-The theorem that answers this question is the **Gauss-Bonnet theorem**. Recall from Section 4 that on a sphere, the holonomy — the rotation angle produced by parallel transporting a vector around a closed loop — equals the integral of curvature over the region enclosed by that loop. The Gauss-Bonnet theorem can be seen as extending this idea to an entire surface: a closed surface with no boundary enclosing itself.
+The theorem that answers this question is the **Gauss-Bonnet theorem**.
+
+Recall from Section 4 that on a sphere, the **holonomy** — the rotation angle produced by parallel transporting a vector around a closed loop — equals the integral of curvature over the region enclosed by that loop.
+
+The Gauss-Bonnet theorem can be seen as extending this idea to an entire surface: a closed surface with no boundary enclosing itself.
 
 $$
-\int_S K\,dA=2\pi\chi(S)
+\int_S K dA = 2\pi\chi(S)
 $$
 
 The left-hand side is the sum of the Gaussian curvature over the entire surface.
 
-Here, $K$ is the Gaussian curvature at each point, and $dA$ represents an infinitesimally small area element of the surface.
+Here:
 
-The $\chi(S)$ on the right-hand side is called the **Euler characteristic**.
+- $K$ is the Gaussian curvature at each point.
+- $dA$ represents an infinitesimally small area element of the surface.
+- $\chi(S)$ is the **Euler characteristic** of the surface.
 
-The Euler characteristic is a value that describes the overall topological structure of a surface — it's related to whether the surface has holes or handles.
+The Euler characteristic is a value that describes the overall **topological structure** of a surface. It is related to whether the surface has holes or handles.
+
+### The Euler Characteristic
 
 If we divide a closed surface into a collection of small faces, the Euler characteristic can be defined as
 
 $$
-\chi=V-E+F
+\chi = V - E + F
 $$
 
-Here, $V$ is the number of vertices, $E$ is the number of edges, and $F$ is the number of faces.
+where:
+
+- $V$ is the number of **vertices**.
+- $E$ is the number of **edges**.
+- $F$ is the number of **faces**.
 
 That is, you divide the surface into small pieces, then subtract the number of edges from the number of vertices and add the number of faces.
 
-The important point is that no matter how you divide it, **for a closed surface with no holes or handles, like a sphere, this value is always 2**.
+The important point is that no matter how you divide it, for a closed surface with no holes or handles, like a sphere, this value is always $2$.
 
 So the Euler characteristic of a sphere is
 
 $$
-\chi(S)=2
+\chi(S) = 2
 $$
+
+### Applying Gauss-Bonnet to a Sphere
 
 Applying the Gauss-Bonnet theorem to a sphere, the right-hand side becomes
 
-2
-π
-χ
-(
-S
-)
+$$
+2\pi\chi(S)
 =
-2
-π
-×
-2
+2\pi\times2
 =
-4
-π
-2πχ(S)=2π×2=4π
-Meanwhile, on a sphere of radius 
-R
-R, the Gaussian curvature at every point is
+4\pi
+$$
 
-K
-=
-1
-R
-2
-K= 
-R 
-2
- 
-1
-​
- 
+Meanwhile, on a sphere of radius $R$, the Gaussian curvature at every point is
+
+$$
+K = \frac{1}{R^2}
+$$
+
 and the total surface area of the sphere is
 
-4
-π
-R
-2
-4πR 
-2
- 
+$$
+4\pi R^2
+$$
+
 So summing the Gaussian curvature over the entire sphere gives
 
-∫
-S
-K
- 
-d
-A
+$$
+\int_S K dA
 =
-1
-R
-2
-×
-4
-π
-R
-2
+\frac{1}{R^2}\times4\pi R^2
 =
-4
-π
-∫ 
-S
-​
- KdA= 
-R 
-2
- 
-1
-​
- ×4πR 
-2
- =4π
-Both sides of the Gauss-Bonnet theorem come out to 
-4
-π
-4π.
+4\pi
+$$
 
-This means that even if the sphere's size — its radius — changes, the integral of the total curvature stays the same.
+Both sides of the Gauss-Bonnet theorem therefore come out to
 
-What Happens with a Torus?
-Now let's consider a donut-shaped surface: the torus.
+$$
+4\pi
+$$
+
+This means that even if the sphere's size — its radius — changes, the **integral of the total Gaussian curvature** stays the same.
+
+The curvature at each individual point becomes smaller as the sphere gets larger, but the total area becomes larger by exactly the compensating amount.
+
+---
+
+### What Happens with a Torus?
+
+Now let's consider a donut-shaped surface: the **torus**.
 
 The Euler characteristic of a torus is
 
-χ
-=
-0
-χ=0
+$$
+\chi = 0
+$$
+
 So by the Gauss-Bonnet theorem,
 
-∫
-S
-K
- 
-d
-A
+$$
+\int_S K dA
 =
-2
-π
-×
-0
+2\pi\times0
 =
 0
-∫ 
-S
-​
- KdA=2π×0=0
-This doesn't mean the Gaussian curvature is 0 at every point on the torus, though.
+$$
 
-On the outer part of a torus, the curvature is generally positive, while on the inner part, it's generally negative.
+This doesn't mean the Gaussian curvature is $0$ at every point on the torus, though.
 
-When you add up these curvatures over the entire surface, they cancel each other out, resulting in a total of 0.
+On the **outer part** of a torus, the Gaussian curvature is generally positive, while on the **inner part**, it is generally negative.
 
-In this way, Gaussian curvature is a local property defined at a single point, but when integrated over an entire surface, it connects to that surface's overall topology.
+When we integrate these curvatures over the entire surface, the positive and negative contributions cancel each other out, resulting in
 
-This is a beautiful result that shows how deeply geometry and topology are connected.
+$$
+\int_S K dA = 0
+$$
+
+The important point is that the torus does **not** have zero curvature everywhere. Rather, its total curvature integrates to zero because its positive and negative curvature contributions balance each other.
 
 ---
+
+### Geometry and Topology
+
+In this way, Gaussian curvature is a **local property** defined at a single point, but when integrated over an entire surface, it connects to that surface's overall **topology**.
+
+This is a beautiful result because it establishes a deep connection between two seemingly different areas of mathematics:
+
+- **Geometry** — the study of distances, angles, curvature, and shapes.
+- **Topology** — the study of properties that remain unchanged under continuous deformation.
+
+The Gauss-Bonnet theorem shows that local geometric information can reveal global topological information.
+
+In a sense, the theorem tells us that the way a surface is curved at every point, when viewed as a whole, knows something fundamental about the surface's topology.
+
+---
+
+
 
 ## 7. From Gauss to Riemann
 
